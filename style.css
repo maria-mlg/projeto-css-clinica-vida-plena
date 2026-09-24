@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    padding: 32px 16px;
+    text-align: center;
+}
+
+header h1{
+color: aliceblue;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+}
+
+navli {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+nav a {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 24px 16px;
+}
