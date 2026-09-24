@@ -1,67 +1,147 @@
+/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* CONFIGURAÇÕES GERAIS */
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: #f8f8f5;
     line-height: 1.6;
 }
 
+
+/* TÍTULOS */
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
 h1 {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 h2 {
-    font-size: 24px;
-    margin-bottom: 8px;
+    font-size: 28px;
+    margin-bottom: 12px;
 }
 
 p {
     margin-bottom: 16px;
 }
 
+
+/* LINKS */
+
 a {
     text-decoration: none;
-    color: crimson;
+    color: #174a3a;
 }
 
+
+/* CABEÇALHO */
+
 header {
-    background-color: black;
-    color: aliceblue;
+    background-color: #174a3a;
+    color: white;
     padding: 32px 16px;
     text-align: center;
 }
 
-header h1{
-color: aliceblue;
-letter-spacing: 2px;
-text-transform: uppercase;
+header h1 {
+    color: #d4af37;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
-nav ul {
-    list-style: none;
-}
 
-navli {
-    display: inline-block;
-    margin: 0 16px;
+/* MENU */
+
+nav {
+    margin-top: 20px;
 }
 
 nav a {
-    color: aliceblue;
+    color: rgb(37, 69, 9);
     font-weight: bold;
+    margin: 0 10px;
 }
+
+nav a:hover {
+    color: #d4af37;
+}
+
+
+/* CONTEÚDO */
 
 main {
     max-width: 960px;
     margin: 0 auto;
-    padding: 32px 16px;
+    padding: 40px 20px;
 }
+
+
+/* CLASSES */
+
+.cabecalho {
+    border-bottom: 3px solid #d4af37;
+}
+
+.menu {
+    background-color: #f1f1eb;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #174a3a;
+    border-left: 4px solid #d4af37;
+    padding-left: 12px;
+}
+
+.texto {
+    color: #444;
+    border-left: 3px solid #d4af37;
+    padding-left: 12px;
+}
+
+
+/* RODAPÉ */
+
 footer {
-    background-color: black;
-    color: aliceblue;
+    background-color: #174a3a;
+    color: white;
     text-align: center;
     padding: 24px 16px;
+}
+
+.rodape {
+    border-top: 3px solid #d4af37;
+}
+
+
+/* EFEITO NOS LINKS */
+
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d4af37;
 }
