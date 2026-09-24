@@ -24,17 +24,20 @@ h2 {
     font-family: 'Playfair Display', serif;
 }
 
-h1 {
-    font-size: 36px;
+
+/* ÁREAS CENTRALIZADAS */
+
+.cabecalho,
+.conteudo {
+    text-align: center;
 }
 
-h2 {
-    font-size: 28px;
-    margin-bottom: 12px;
-}
 
-p {
-    margin-bottom: 16px;
+/* CORES VERDES */
+
+.subtitulo,
+a {
+    color: #174a3a;
 }
 
 
